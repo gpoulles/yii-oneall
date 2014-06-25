@@ -49,7 +49,7 @@ Get User's contacts (GET):
 	$oneall_curly = Yii::app()->getComponent('oneall')->getOneAllApi();
 	$call = $oneall_curly->getUserContacts($user_token);
 	
-Publish on Social Networks:
+Publish on Social Networks (POST):
 
 	$oneall_curly = Yii::app()->getComponent('oneall')->getOneAllApi();
 	$post_data = array(
@@ -79,7 +79,7 @@ Publish on Social Networks:
     
     $call = $oneall_curly->postUserPublish($user_token, $message_structure_json);
     
-Delete user:
+Delete user (DELETE):
 
 	$oneall_curly = Yii::app()->getComponent('oneall')->getOneAllApi();
 	$call = $oneall_curly->deleteUser($user_token);    
