@@ -6,18 +6,10 @@ Integration of oneall.com API in yii (http://docs.oneall.com/api/)
 Installation
 ------------
 
- - copy the "oneall"-folder to extensions
- - import the folder in your main config
- - add oneall as a component in your main config
+- copy the "oneall"-folder to extensions
+- import the folder in your main config
+- add oneall as a component in your main config
 
-	"components" => array(
-		"oneall" => array(
-			"class" => "ext.oneall.OneAll",
-			"subdomain" => "YOUR SUBDOMAIN",
-			"public_key" => "YOUR PUBLIC KEY",
-			"private_key" => "YOUR PRIVATE KEY",
-		),
-	)
 
 Usage
 -----
