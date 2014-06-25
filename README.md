@@ -9,8 +9,8 @@ Installation
  - copy the "oneall"-folder to extensions
  - import the folder in your main config
  - add oneall as a component in your main config
- 
- 	'components'=>array(
+
+	'components'=>array(
 	 	'oneall'=>array(
 	            'class'=>'ext.oneall.OneAll',
 	            'subdomain'=>'YOUR SUBDOMAIN',
