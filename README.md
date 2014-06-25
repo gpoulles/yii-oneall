@@ -1,7 +1,7 @@
 yii-oneall
 ==========
 
-Integratration of oneall.com API in yii (http://docs.oneall.com/api/)
+Integration of oneall.com API in yii (http://docs.oneall.com/api/)
 
 Installation
 ------------
