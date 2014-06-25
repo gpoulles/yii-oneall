@@ -11,6 +11,15 @@ Installation
 - add oneall as a component in your main config
 
 
+		"components" => array(
+			"oneall" => array(
+				"class" => "ext.oneall.OneAll",
+				"subdomain" => "YOUR SUBDOMAIN",
+				"public_key" => "YOUR PUBLIC KEY",
+				"private_key" => "YOUR PRIVATE KEY",
+			),
+		)
+
 Usage
 -----
 
